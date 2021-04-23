@@ -1,0 +1,37 @@
+# automation.py
+import os
+from shutil import move
+# directory
+ch = str(input('Enter the directory name : '))
+os.mkdir('/home/kanishk/Music' + ch)
+root_dir = '/home/kanishk/Music'
+image_dir = '/home/kanishk/Music/Jetha-AI-Screenshots'
+others_dir = '/home/kanishk/Music/{}'.format(ch)
+software_dir = '/home/kanishk/Music/{}'.format(ch)
+# category wise file types
+
+#doc_types = ('.doc', '.docx', '.txt', '.pdf', '.xls', '.ppt', '.xlsx', '.pptx')
+img_types = ('.jpg', '.jpeg', '.png', '.svg', '.gif', '.tif', '.tiff')
+software_types = ('.exe', '.pkg', '.dmg','.py','.txt','.h5','.pkl')
+def get_non_hidden_files_except_current_file(root_dir):
+      return [f for f in os.listdir(root_dir) if os.path.isfile(f) and not f.startswith('.') and not f.__eq__(__file__)]
+def move_files(files):
+    for file in files:
+        # file moved and overwritten if already exists
+        if file.endswith(img_types):
+            move(file, '{}/{}'.format(image_dir, file))
+            print('file {} moved to {}'.format(file, image_dir))
+        elif file.endswith(software_types):
+            move(file, '{}/{}'.format(software_dir, file))
+            print('file {} moved to {}'.format(file, others_dir))
+        else:
+            if file.startswith("organize"):
+                pass
+            else:
+                move(file, '{}/{}'.format(others_dir, file))
+                print('file {} moved to {}'.format(file, others_dir))
+
+if __name__ == "__main__":
+
+    files = get_non_hidden_files_except_current_file(root_dir)
+    move_files(files)
