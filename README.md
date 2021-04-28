@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kanishksh4rma?tab=followers)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-![](https://img.shields.io/badge/Status-Early Access-green)
+![](https://img.shields.io/badge/Status-Early/Access-green)
 
 A Deep Neural Network that has been trained to chat and reply using TMKOC iconic dialogues.
 
