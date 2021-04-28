@@ -1,9 +1,11 @@
 # Jethiya A.I
 > An A.I bot that talks like Jethalal :)
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Generic badge](https://img.shields.io/badge/<STATUS>-<Early-Access>-<COLOR>.svg)](https://shields.io/)
+[![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kanishksh4rma?tab=followers)
+
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
 
 One to two paragraph statement about your product and what it does.
 
@@ -27,7 +29,10 @@ python3 test.py
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Just install all the dependencies and run the app.py but for development purposes and testing, we recommend the following:
+
+`python chat.py` # For chatting to the bot.
+`python test.py` # For testing the bot over testCases
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
@@ -36,16 +41,19 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
-make install
-npm test
+pip3 install -r requirements.txt
+python3 test.py
 ```
+## Training the model
+Though testing will test the model as well as train it. But if you want to train the model only (maybe on a pecific parameters). You can skip testing and directly run.
+`python bot.py`
 
 ## Release History
 
-* "tmkoc best version 4.0"
+* > tmkoc best version 4.0
     * Currently, best version so far. (improved early access)
     * Classes and custom func parameters introduced.
-* "tmkoc best version 3.0"
+* > tmkoc best version 3.0
     * will use for early access to get feedbacks.
     * Classes and custom test cases implemented.
     * `babuchakEngine` optimized.
@@ -67,9 +75,5 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
