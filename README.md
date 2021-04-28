@@ -1,15 +1,14 @@
 # Jethiya A.I
 > An A.I bot that talks like Jethalal :)
 
-[![](https://img.shields.io/badge/<STATUS>-<Early-Access>-<COLOR>.svg)](https://shields.io/)
+[![ok](https://img.shields.io/badge/<STATUS>-<Early-Access>-<COLOR>.svg)](https://shields.io/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kanishksh4rma?tab=followers)
-
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
+A Deep Neural Network that has been trained to chat and reply using TMKOC iconic dialogues.
 
-One to two paragraph statement about your product and what it does.
-
-![](header.png)
+![](/static/header.png)
 
 ## Installation
 
@@ -77,4 +76,3 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 <!-- Markdown link & img dfn's -->
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![Ryo-ma's github trophy](https://github-profile-trophy.vercel.app/?username=kanishksh4rma&row=1)](https://github.com/ryo-ma/github-profile-trophy)
