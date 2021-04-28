@@ -3,7 +3,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kanishksh4rma?tab=followers)
-![](https://img.shields.io/badge/Status-Early-Access-brightgreen.svg?style=flat-square)
+![](https://img.shields.io/badge/Status-Early%20Access-brightgreen.svg?style=flat-square)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 
