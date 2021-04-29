@@ -62,7 +62,7 @@ Though testing will test the model as well as train it. But if you want to train
 ## Meta
 
 Kanishk Sharma – kanishksh4rma@protonmail.com
-<p align='center'>
+<p align='left'>
   <a href="https://twitter.com/wtfkanishk">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />    
   </a>&nbsp;&nbsp;
