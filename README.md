@@ -32,6 +32,7 @@ python3 test.py
 Just install all the dependencies and run the app.py but for development purposes and testing, we recommend the following:
 
 `python chat.py` # For chatting to the bot.
+
 `python test.py` # For testing the bot over testCases
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
@@ -74,10 +75,9 @@ Kanishk Sharma – [@wtfkanishk](https://twitter.com/wtfkanishk) – kanishksh4r
   <a href="https://instagram.com/holyy.lucifer">
     <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
   </a>&nbsp;&nbsp;
-   <br --->
-   Distributed under the XYZ license. See ``LICENSE`` for more information.
+   
 </p>
-
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
