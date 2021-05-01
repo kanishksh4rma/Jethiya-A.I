@@ -11,7 +11,7 @@ A Deep Neural Network that has been trained to chat and reply using TMKOC iconic
 
 ![](/static/header.png)
 
-## Installation
+## 📥 Installation
 
 OS X & Linux:
 
@@ -31,13 +31,13 @@ python3 test.py
 
 Just install all the dependencies and run the app.py but for development purposes and testing, we recommend the following:
 
-`python chat.py` # For chatting to the bot.
+`python chat.py`   # For chatting to the bot.
 
-`python test.py` # For testing the bot over testCases
+`python test.py`   # For testing the bot over testCases
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+_For more examples and usage, please refer to the [Wiki](/wiki.md)_
 
-## Development setup
+## 📦 Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
@@ -49,7 +49,7 @@ python3 test.py
 Though testing will test the model as well as train it. But if you want to train the model only (maybe on a pecific parameters). You can skip testing and directly run.
 `python bot.py`
 
-## Release History
+## 🔹Release History
 
 * > tmkoc best version 4.0
     * Currently, best version so far. (improved early access)
@@ -59,7 +59,13 @@ Though testing will test the model as well as train it. But if you want to train
     * Classes and custom test cases implemented.
     * `babuchakEngine` optimized.
 
-## Meta
+## ✅ To-Do
+* Optimize the engine by hyperparameter tuning
+* Add more dialogues in intents
+* Return episode link on '/link' command
+
+
+## 🔭 Meta
 
 Kanishk Sharma – kanishksh4rma@protonmail.com
 <p align='left'>
@@ -80,7 +86,7 @@ Kanishk Sharma – kanishksh4rma@protonmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-## Contributing
+## 🏅 Contributing
 
 1. Fork it (<https://github.com/kanishksh4rma/Jethiya-A.I/fork>)
 2. Create your feature branch (`git checkout -b feature/intents`)
