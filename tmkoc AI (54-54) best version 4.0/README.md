@@ -96,9 +96,4 @@ i wanna suicide / die
 i will suicide
 i depressed
 inspire me
-motivate me
-sundar
-tumhara saala
-sundar topibaaz business
-jijaji, taxi ke paise
 ```
