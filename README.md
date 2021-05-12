@@ -51,8 +51,11 @@ Though testing will test the model as well as train it. But if you want to train
 
 ## 🔹Release History
 
+* > tmkoc best version 5.1
+    * New commands and updated intents
+    * Used for Main Release [both Web & Android]
 * > tmkoc best version 4.0
-    * Currently, best version so far. (improved early access)
+    * Stable but limited commands, quite impressive version so far. (improved early access)
     * Classes and custom func parameters introduced.
 * > tmkoc best version 3.0
     * will use for early access to get feedbacks.
