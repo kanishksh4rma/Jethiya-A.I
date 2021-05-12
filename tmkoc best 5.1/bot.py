@@ -9,23 +9,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 import argparse
-my_parser = argparse.ArgumentParser(description='Epochs and vocab_size')
 
-# Add the arguments
-my_parser.add_argument('-e','--epochs',
-                       metavar='epochs',
-                       type=int,
-                       help='the epochs',default=2400)
-my_parser.add_argument('-v','--vocab_size',
-                       metavar='vocab_size',
-                       type=int,
-                       help='the vocab_size',default=1000)
-
-# Execute the parse_args() method
-args = my_parser.parse_args()
-
-got_epochs = args.epochs
-got_vocab_size = args.vocab_size
 
 
 class JethiyaAI():
@@ -162,6 +146,22 @@ class JethiyaAI():
 #model.load_weights(checkpoint_filepath)
 #history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 if __name__ == '__main__':
-    #babuchakEngine = JethiyaAI(epochs=2400,vocab_size=1000,max_len=25)
-    babuchakEngine = JethiyaAI(epochs=got_epochs,vocab_size=got_vocab_size,max_len=25)
-    babuchakEngine.buildModel()
+
+  my_parser = argparse.ArgumentParser(description='Epochs and vocab_size')
+
+  # Add the arguments
+  my_parser.add_argument('-e','--epochs',
+                        metavar='epochs',
+                        type=int,
+                        help='the epochs',default=2400)
+  my_parser.add_argument('-v','--vocab_size',
+                        metavar='vocab_size',
+                        type=int,
+                        help='the vocab_size',default=1000)
+
+  # Execute the parse_args() method
+  args = my_parser.parse_args()
+ 
+  #babuchakEngine = JethiyaAI(epochs=2400,vocab_size=1000,max_len=25)
+  babuchakEngine = JethiyaAI(epochs=args.epochs,vocab_size=args.vocab_size,max_len=25)
+  babuchakEngine.buildModel()
