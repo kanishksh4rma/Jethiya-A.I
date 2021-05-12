@@ -47,7 +47,7 @@ python3 test.py
 ```
 ## Training the model
 Though testing will test the model as well as train it. But if you want to train the model only (maybe on a pecific parameters). You can skip testing and directly run.
-`python bot.py`
+`python bot.py -e 2400 -v 1000`
 
 ## 🔹Release History
 
