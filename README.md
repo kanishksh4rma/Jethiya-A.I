@@ -62,7 +62,7 @@ Though testing will test the model as well as train it. But if you want to train
 ## ✅ To-Do
 * Optimize the engine by hyperparameter tuning
 * Add more dialogues in intents
-* Return episode link on '/link' command
+* Add gif support for android
 
 
 ## 🔭 Meta
